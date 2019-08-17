@@ -7,6 +7,8 @@
     --primary-text: #212121;
     --secondary-text: #757575;
     --divider-color: #BDBDBD;
+    --body-font: 'Source Sans Pro', sans-serif;
+    --title-font: font-family: 'Alfa Slab One', cursive;
 
 
 }
@@ -15,4 +17,15 @@ body{
     margin: 0;
     padding: 0;
     background: var(--dark-primary-color);
+    font-family: var(--body-font);
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 .h6{
+    font-family: var(--title-font);
+    font-size: 23px;
+}
+
+strong{
+    color: rgb(187, 224, 255);
 }
