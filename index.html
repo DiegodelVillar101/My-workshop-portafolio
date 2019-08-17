@@ -9,9 +9,12 @@
     <title>Portafolio</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <img src="./img/logo-negro.png" alt="logo de diego" width="150px">
+            <figure class="logo">
+                <img src="./img/logo-negro.png" alt="logo de diego" width="150px">
+
+            </figure>
             <nav>
                 <ul>
                     <li><a href="#portafolio">Portafolio</a></li>
@@ -22,33 +25,35 @@
         </div>
     </header> 
 
-    <section id="">
+    <section class="hero">
         <h1>¡Hola! Soy <strong>Diego del Villar</strong>, <br> me apasiona el futbol, soy estudiante de <br> <strong>universidad</strong>, me gustan los <strong>tacos y viajar</strong> </h1>
         <img src="" alt="">
     </section>
 
-    <section id="portafolio">
+    <section class="portafolio" id="portafolio">
         <h2>Portafolio</h2>
-        <article>
-            <h3>Curso de programaciòn</h3>
-            <h4>HTML/CSS/JAVA</h4>
-            <p><small><strong>JUN-SEP 2019</strong></small></p>
-            <p><small><strong>Aprendiendo a programar</strong></small></p>
-            <p>Estudie un tiempo porgramaciòn web, aprendiendo a <br> estructurar y diseñar pàginas web, <br> en un lugar muy bonito en el centro de Xalapa<br></p>
-            <figure>
-                <img src="" alt="">
+        <article class="project">
+            <h3 class="project-title">Curso de programaciòn</h3>
+            <h4 class="project-subtitle">HTML/CSS/JAVA</h4>
+            <p class="project-date"><small><strong>JUN-SEP 2019</strong></small></p>
+            <p class="project-url"><small><strong>Aprendiendo a programar</strong></small></p>
+            <p class="project-description">Estudie un tiempo porgramaciòn web, aprendiendo a <br> estructurar y diseñar pàginas web, <br> en un lugar muy bonito en el centro de Xalapa<br></p>
+            <figure class="project-img-container">
+                <img class="project-img" src="" alt="">
             </figure>
         </article>
     </section>
 
-    <section id="experiencia">
+    <section id="experiencia" class="experiencia">
         <h2>Experiencias</h2>
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <h3>Futbol</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Saepe debitis vel similique at corrupti Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Eaque distinctio vero quae, <br> modi consectetur laboriosam ex corporis reprehenderit perferendis eum dicta voluptate autem debitis sa</p>
-        <a href="#">Boton</a>
+        <article class="experience">
+            <figure class="experience-img-container">
+                <img src="" alt="" class="experience-img">
+            </figure>
+            <h3 class="experience-title">Futbol</h3>
+            <p class="experience-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Saepe debitis vel similique at corrupti Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. Eaque distinctio vero quae, <br> modi consectetur laboriosam ex corporis reprehenderit perferendis eum dicta voluptate autem debitis sa</p>
+            <a class="experience-url" href="#">Boton</a>
+        </article>
     </section>
 
     <section id="contacto">
