@@ -1,5 +1,5 @@
 :root{
-    --dark-primary-color: #1976D2;
+    --dark-primary-color: rgb(12, 48, 87);
     --light-primary-color: #BBDEFB;
     --primary-color: #2196F3;
     --text-icons: #ffffff;
@@ -29,4 +29,10 @@ h1, h2, h3, h4, h5 .h6{
 
 strong{
     color: rgb(187, 224, 255);
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: -3px;
 }
