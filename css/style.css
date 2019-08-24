@@ -58,6 +58,8 @@ body{
     background-size: 675px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .hero strong{
@@ -78,6 +80,7 @@ h1{
 
 .portafolio{
     background: var(--light-primary-color);
+    
 
 }
 
