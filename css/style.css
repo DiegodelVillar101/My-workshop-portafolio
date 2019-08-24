@@ -31,8 +31,20 @@ strong{
     color: rgb(187, 224, 255);
 }
 
+
 h1{
     font-size: 40px;
     line-height: 1.4;
     letter-spacing: -3px;
+}
+
+.project-details{
+width: 500px;
+border: solid 2px red;
+}
+
+.project-img-container{
+    width: 500px;
+    border: solid 2px red;
+
 }
