@@ -38,7 +38,15 @@ body{
 .hero{
     border: solid 2px red;
     height: 300px;
+    background: var(--primary-color);
+    background-image: url("../img/portada.jpg");
+    background-size: 675px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
 
+.hero strong{
+    color: rgb(187, 224, 255);
 }
 
 
@@ -47,16 +55,12 @@ h1, h2, h3, h4, h5 .h6{
     font-size: 23px;
 }
 
-strong{
-    color: rgb(187, 224, 255);
-}
-
-
 h1{
     font-size: 40px;
     line-height: 1.4;
     letter-spacing: -3px;
 }
+
 
 .project-details{
 width: 500px;
