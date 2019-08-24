@@ -2,7 +2,7 @@
     --dark-primary-color: rgb(12, 48, 87);
     --light-primary-color: #BBDEFB;
     --primary-color: #2196F3;
-    --text-icons: #ffffff;
+    --text: #ffffff;
     --accent-color: #009688;
     --primary-text: #212121;
     --secondary-text: #757575;
@@ -21,6 +21,26 @@ body{
     font-family: var(--body-font);
     font-size: 16px;
 }
+
+
+.header{
+   background: rgb(7, 28, 51);
+   color: var(--text-icons);
+    
+}
+
+.header a{
+    color: var(--text);
+    text-decoration: none;
+}
+
+
+.hero{
+    border: solid 2px red;
+    height: 300px;
+
+}
+
 
 h1, h2, h3, h4, h5 .h6{
     font-family: var(--title-font);
