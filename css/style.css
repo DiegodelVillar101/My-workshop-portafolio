@@ -99,7 +99,7 @@ h1{
 }
 
 
-.portafolio h2{
+h2{
     color: var(--text);
     text-transform: uppercase;
     font-weight: 700;
@@ -146,8 +146,13 @@ width: 500px;
 }
 
 .project-img-container{
-    width: 400px;
+    width: 700px;
     /* border: solid 2px red; */
+
+}
+
+
+.experiencia{
 
 }
 
