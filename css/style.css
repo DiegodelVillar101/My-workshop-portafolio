@@ -152,10 +152,29 @@ width: 500px;
 }
 
 
-.experiencia{
 
+.experience-container{
+    display: flex;
 }
 
+.experience{
+   margin: 10px;
+   border: 3px red solid;
+   width: 480px;
+   background:  var(--accent-color);
+}
+
+
+.experience-img-container{
+    margin: 0;
+}
+
+
+.experience-img{
+    width: 420px;
+    height: 320px;
+    object-fit: cover;
+}
 
 
 .footer{
