@@ -189,6 +189,22 @@ width: 500px;
 }
 
 
+.experience-url{
+    color: rgb(0, 49, 49);
+    text-decoration: none;
+    border: 1px solid rgb(1, 49, 49);
+    border-radius: 3px;
+    padding: 5px 20px;
+    transition: 300ms all;
+}
+
+
+.experience-url:hover{
+    background: #8c9eff;
+    color: white;
+}
+
+
 .experience-img-container{
     margin: 0;
 }
