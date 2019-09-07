@@ -223,7 +223,7 @@ width: 500px;
 .contact{
     background: rgb(38, 137, 218);
     color: white;
-    height: 90px;
+    /* height: 90px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -232,6 +232,11 @@ width: 500px;
 
 .contact-form-label{
     display: block;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 21px;
+    
+    
 }
 
 
@@ -245,6 +250,7 @@ width: 500px;
  background-repeat: no-repeat;
  background-position-y: center;   
  background-position-x: 5px;
+ margin: 10px 0;
 
 }
 
