@@ -75,6 +75,11 @@ body{
 }
 
 
+.header a:hover{
+    color: yellow;
+}
+
+
 
 .hero{
     /* border: solid 2px red; */
@@ -87,6 +92,11 @@ body{
     display: flex;
     align-items: center;
 
+}
+
+
+.hero h1{
+    padding-right: 40px;
 }
 
 
@@ -179,6 +189,7 @@ width: 500px;
     justify-content: space-evenly;
 }
 
+
 .experience{
    margin: 10px;
    border: 3px #006064 solid;
@@ -195,7 +206,7 @@ width: 500px;
 
 .experience-details{
     margin: 20px;
-    background: rgb(54, 101, 255);
+    background: rgb(73, 106, 216);
     margin-top: -81px;
     position: relative;
     padding: 15px;
@@ -210,19 +221,19 @@ width: 500px;
 
 
 .experience-url{
-    color: rgb(170, 218, 218);
+    color: black;
     text-decoration: none;
     border: 1px solid rgb(1, 49, 49);
     border-radius: 3px;
     padding: 5px 20px;
     transition: 300ms all;
-    background: rgb(89, 60, 116);
+    background: #18ffff;
 }
 
 
 .experience-url:hover{
     background: #8c9eff;
-    color: white;
+    color: black;
 }
 
 
@@ -255,6 +266,7 @@ width: 500px;
     /* margin: 10px; */
     font-weight: 700;
     font-size: 21px;
+    padding-top: 10px;
 
 
 }
@@ -286,6 +298,7 @@ width: 500px;
     border-radius: 5px;
     padding: 10px 16px;
     width: 100px;
+    margin-bottom: 5px;
 
 }
 
