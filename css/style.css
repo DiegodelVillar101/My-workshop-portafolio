@@ -13,6 +13,14 @@
 
 }
 
+.logo{
+    list-style: none;
+}
+
+/* .logo:hover{
+    background-image: url("../img/logo-negro.png")
+} */
+
 
 /* la pagina de font family es https://fonts.google.com */
 
@@ -22,7 +30,7 @@ body{
     margin: 0;
     padding: 0;
     /* background: var(--dark-primary-color); */
-    background: var(--body-color);
+    background: linear-gradient(to top right, #00537E, #3AA17E);
     font-family: var(--body-font);
     font-size: 16px;
 
@@ -194,7 +202,7 @@ width: 500px;
    margin: 10px;
    border: 3px #006064 solid;
    width: 480px;
-   background:  var(--light-primary-color);
+   background: linear-gradient(to top right, rgb(3, 13, 146), rgb(93, 151, 228));
    border-radius: 15px;
    overflow: hidden;
    flex-shrink: 0;
@@ -232,7 +240,7 @@ width: 500px;
 
 
 .experience-url:hover{
-    background: #8c9eff;
+    background: #eb5d0b;
     color: black;
 }
 
@@ -299,6 +307,7 @@ width: 500px;
     padding: 10px 16px;
     width: 100px;
     margin-bottom: 5px;
+    
 
 }
 
@@ -307,6 +316,7 @@ width: 500px;
 
 .social-container{
     /* border: 1px solid red; */
+
 
 }
 
@@ -318,12 +328,14 @@ width: 500px;
     background-size: 50px 50px;
     margin-left: 20px;
     margin-right: 10px;
+    
 
 }
 
 
 .social-link.facebook{
     background-image: url("../img/facebook.svg");
+    
 }
 
 
@@ -356,8 +368,12 @@ width: 500px;
 }
 
 
-
 .footer a{
     color: white;
     text-decoration: none;
+}
+
+
+.footer a:hover{
+    color: black;
 }
