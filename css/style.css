@@ -61,6 +61,7 @@ body{
    justify-content: space-between;
    align-items: center;
    height: 75px;
+   flex-wrap: wrap;
 }
 
 
@@ -99,6 +100,7 @@ body{
     background-position-x: right;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -158,6 +160,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     /* rgb(37, 37, 37) */
+    flex-wrap: wrap;
 }
 
 
@@ -265,7 +268,7 @@ width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    flex-wrap: wrap;
 
 }
 
@@ -364,6 +367,7 @@ width: 500px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -377,6 +381,7 @@ width: 500px;
 .footer a:hover{
     color: black;
 }
+
 
 /* Responsive Design */
 
