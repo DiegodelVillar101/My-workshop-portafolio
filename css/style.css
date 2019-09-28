@@ -94,18 +94,26 @@ body{
 
 .hero{
     /* border: solid 2px red; */
-    height: 300px;
-    background: var(--primary-color);
-    /* background-image: url("../img/portada.jpg"); */
-    background-size: 675px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
+    font-size: 24px;
+    padding: 100px 0;
+    max-height: 300px;
+    background-color: var(--primary-color);
+    background-image: url("../img/portada.jpg");
+    background-size: 100% auto;
+    background-position: center;
+    /*background-repeat: no-repeat;
+    background-position-x: right; */
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 
 }
 
+.hero-title{
+    font-size: 2em;
+    line-height: 1.4;
+    letter-spacing: -3px;
+}
 
 .hero h1{
     padding-right: 40px;
@@ -123,15 +131,6 @@ h1, h2, h3, h4, h5, h6{
     font-size: 23px;
     font-weight: 500;
 }
-
-
-
-h1{
-    font-size: 40px;
-    line-height: 1.4;
-    letter-spacing: -3px;
-}
-
 
 
 .portafolio{
@@ -403,6 +402,10 @@ width: 50%;
         background: red;
     } */
 
+    .hero{
+        font-size: 18px;
+    }
+
     .header {
         display: block;
         height: auto;
@@ -415,10 +418,11 @@ width: 50%;
 
     .navbar-ul{
         display: block;
+        margin: 0;
     }
 
     .navbar-item{
-        margin: 25px 0;
+        margin-top: 25px;
         text-align: center;
     }
 
@@ -463,12 +467,20 @@ width: 50%;
 }
 
 @media screen and (max-width: 480px){
-       .project-details{
+    .hero {
+        font-size: 12px;
+    }
+    
+    
+    .project-details{
            font-size: 10px;
        }
     
 }
 
 @media screen and (max-width: 320px){
+    .hero{
+        padding: 40px 0;
+    }
     
 }
