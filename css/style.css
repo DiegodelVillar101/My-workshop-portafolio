@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .portafolio{
-    background: var(--light-primary-color);
+    background: #181733;
     padding: 6px;
 
 }
@@ -461,6 +461,36 @@ width: 50%;
         display: flex;
     }
 
+    .menu{
+        position: fixed;
+        background:  rgb(7, 28, 51);
+        z-index: 666;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: -100vw;
+        /* transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s; */
+    }
+
+    .menu.active{
+        left: 0;
+    }
+
+    .navbar-ul{
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .navbar-item{
+        font-size: 30px;
+    }
+
     .hero{
         font-size: 18px;
     }
@@ -473,11 +503,6 @@ width: 50%;
     .logo{
         margin: 0;
         text-align: center;
-    }
-
-    .navbar-ul{
-        display: block;
-        margin: 0;
     }
 
     .navbar-item{
