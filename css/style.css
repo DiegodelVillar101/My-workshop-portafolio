@@ -147,7 +147,7 @@ body{
     padding: 100px 0;
     max-height: 300px;
     background-color: var(--primary-color);
-    background-image: url("../img/portada.jpg");
+    background-image: url("../img/fondo-cabañas.jpg") ;
     background-size: 100% auto;
     background-position: center;
     /*background-repeat: no-repeat;
@@ -448,7 +448,7 @@ width: 50%;
 /* Responsive Design */
 
 @media screen and (max-width: 1024px){
-
+    
 
 }
 
@@ -473,7 +473,7 @@ width: 50%;
         align-items: center;
         justify-content: center;
         left: -100vw;
-        /* transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s; */
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
     }
 
     .menu.active{
